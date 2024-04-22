@@ -1,26 +1,26 @@
-# Р”РѕРјР°С€РЅСЏСЏ СЂР°Р±РѕС‚Р° в„– 1
+# Домашняя работа № 1
 
-#### 1. РЎРґРµР»Р°С‚СЊ С„РѕСЂРє СЂРµРїРѕР·РёС‚РѕСЂРёСЏ РґР»СЏ РґРѕРјР°С€РЅРµРіРѕ Р·Р°РґР°РЅРёСЏ в„–1 РІ СЃРІРѕР№ Р»РёС‡РЅС‹Р№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ (СЃРј. РћРїРёСЃР°РЅРёРµ, СЃСЃС‹Р»РєР° РЅР° СЂРµРїРѕР·РёС‚РѕСЂРёР№ https://gitlab.com/devgrav/otus.teaching.promocodefactory.homework.base);
-Р¤РѕСЂРє РЎРґРµР»Р°Р»
+#### 1. Сделать форк репозитория для домашнего задания №1 в свой личный репозиторий (см. Описание, ссылка на репозиторий https://gitlab.com/devgrav/otus.teaching.promocodefactory.homework.base);
+Форк Сделал
 
-#### 2. РЈР±РµРґРёС‚СЊСЃСЏ, С‡С‚Рѕ РїСЂРѕРµРєС‚ Р·Р°РїСѓСЃРєР°РµС‚СЃСЏ. Р”Р»СЏ СЌС‚РѕРіРѕ РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РїСЂРѕРІРµСЂРёС‚СЊ СЂР°Р±РѕС‚Сѓ С€Р°Р±Р»РѕРЅР°, РІС‹Р·РІР°РІ РјРµС‚РѕРґ API С‡РµСЂРµР· Swagger. РџСЂРѕРµРєС‚ РёСЃРїРѕР»СЊР·СѓРµС‚ .NET Core 3.1, С‚Р°Рє С‡С‚Рѕ РЅР°РґРѕ СѓР±РµРґРёС‚СЊСЃСЏ, С‡С‚Рѕ СѓСЃС‚Р°РЅРѕРІР»РµРЅРѕ SDK https://dotnet.microsoft.com/download/dotnet-core/3.1 Рё РІСЃРµ СЃРѕР±РёСЂР°РµС‚СЃСЏ Рё Р·Р°РїСѓСЃРєР°РµС‚СЃСЏ РЅР° РІР°С€РµР№ РјР°С€РёРЅРµ.
-РџСЂРѕРµРєС‚ Р·Р°РїСѓСЃРєР°РµС‚СЃСЏ. РР·РјРµРЅРёР» РїСЂРѕРµРєС‚ РґР»СЏ .NET Core 8:
+#### 2. Убедиться, что проект запускается. Для этого достаточно проверить работу шаблона, вызвав метод API через Swagger. Проект использует .NET Core 3.1, так что надо убедиться, что установлено SDK https://dotnet.microsoft.com/download/dotnet-core/3.1 и все собирается и запускается на вашей машине.
+Проект запускается. Изменил проект для .NET Core 8:
 <image src="images/Screen_OK.png" alt="result">
 
-#### 3. Р РµР°Р»РёР·РѕРІР°С‚СЊ Create/Delete/Update РјРµС‚РѕРґС‹ РІ EmployeesController РЅР° РѕСЃРЅРѕРІРµ РјР°С‚РµСЂРёР°Р»РѕРІ Р±Р»РёР¶Р°Р№С€РёС… СѓСЂРѕРєРѕРІ РјРѕРґСѓР»СЏ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ. РњРµС‚РѕРґС‹ РґРѕР»Р¶РЅС‹ С‚Р°РєР¶Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЂРµРїРѕР·РёС‚РѕСЂРёР№ СЃ РґР°РЅРЅС‹РјРё РІ РїР°РјСЏС‚Рё, РєР°Рє РІ Р±Р°Р·РѕРІРѕРј РїСЂРёРјРµСЂРµ, РїСЂРё СЌС‚РѕРј СЃРѕСЃС‚РѕСЏРЅРёРµ СЃРїРёСЃРєР° СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ РґРѕР»Р¶РЅРѕ СЃРѕС…СЂР°РЅСЏС‚СЊСЃСЏ РјРµР¶РґСѓ СЂР°Р·РЅС‹РјРё Р·Р°РїСЂРѕСЃР°РјРё. Р’ РєР°С‡РµСЃС‚РІРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РЅРµРѕР±С…РѕРґРёРјРѕ РѕС‚РїСЂР°РІРёС‚СЊ РІ С‡Р°С‚ СЃ РїСЂРµРїРѕРґР°РІР°С‚РµР»РµРј СЃСЃС‹Р»РєСѓ РЅР° СЃРІРѕСЋ РґРѕРјР°С€РЅСЋСЋ СЂР°Р±РѕС‚Сѓ.
-Р РµР°Р»РёР·РѕРІР°Р» Create/Delete/Update РјРµС‚РѕРґС‹ РІ EmployeesController:
+#### 3. Реализовать Create/Delete/Update методы в EmployeesController на основе материалов ближайших уроков модуля и дополнительных материалов. Методы должны также использовать репозиторий с данными в памяти, как в базовом примере, при этом состояние списка сотрудников должно сохраняться между разными запросами. В качестве результата необходимо отправить в чат с преподавателем ссылку на свою домашнюю работу.
+Реализовал Create/Delete/Update методы в EmployeesController:
 
-РњРµС‚РѕРґ Create:
+Метод Create:
 ```cs
 /// <summary>
-/// РЎРѕР·РґР°С‚СЊ РЅРѕРІРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°
+/// Создать нового сотрудника
 /// </summary>
 /// <param name="createEmployee"></param>
 /// <returns></returns>
 [HttpPost]
 public async Task<ActionResult<EmployeeResponse>> CreateEmployeeAsync([FromBody] EmployeeShortRequest employeeRequest)
 {
-    // РЎРѕР·РґР°РµРј РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° СЃРѕС‚СЂСѓРґРЅРёРє        
+    // Создаем объект класса сотрудник        
     Employee employee = new()
     {
         FirstName = employeeRequest.FirstName,
@@ -30,20 +30,20 @@ public async Task<ActionResult<EmployeeResponse>> CreateEmployeeAsync([FromBody]
         Roles = new List<Role>()
     };
 
-    // Р­С‚РѕС‚ СЃРѕС‚СЂСѓРґРЅРёРє РїСѓСЃС‚СЊ Р±СѓРґРµС‚ Р°РґРјРёРЅРёСЃС‚Р°СЂРѕС‚РѕСЂРѕРј
+    // Этот сотрудник пусть будет администаротором
     employee.Roles.Add(new Role()
     {
         Id = Guid.Parse("53729686-a368-4eeb-8bfa-cc69b6050d02"),
         Name = "Admin",
-        Description = "РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ",
+        Description = "Администратор",
     });
 
-    // РЎРѕР·РґР°РµРј РµРіРѕ РІ СЂРµРїРѕР·РёС‚Р°СЂРёРё
+    // Создаем его в репозитарии
     var createdEmployee = await _employeeRepository.CreateAsync(employee);
     if (createdEmployee == null)
         return BadRequest();
 
-    // Р’РѕР·РІСЂР°С‰Р°РµРј СЃРѕР·РґР°РЅРЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°
+    // Возвращаем созданного сотрудника
     var employeeModel = new EmployeeResponse()
     {
         Id = createdEmployee.Id,
@@ -60,10 +60,10 @@ public async Task<ActionResult<EmployeeResponse>> CreateEmployeeAsync([FromBody]
 }
 ```
 
-РњРµС‚РѕРґ Delete:
+Метод Delete:
 ```cs
 /// <summary>
-/// РЈРґР°Р»РёС‚СЊ СЃРѕС‚СЂСѓРґРЅРёРєР°
+/// Удалить сотрудника
 /// </summary>
 /// <param name="createEmployee"></param>
 /// <returns></returns>
@@ -91,11 +91,11 @@ public async Task<ActionResult<EmployeeResponse>> Delete(Guid id)
 }
 ```
 
-РњРµС‚РѕРґ Update:
+Метод Update:
 ```cs
 
 /// <summary>
-/// РћР±РЅРѕРІРёС‚СЊ РґР°РЅРЅС‹Рµ СЃРѕС‚СЂСѓРґРЅРёРєР°
+/// Обновить данные сотрудника
 /// </summary>
 /// <param name="UpdateEmployee"></param>
 /// <returns></returns>
@@ -123,7 +123,7 @@ public async Task<ActionResult<EmployeeResponse>> Update(Guid id, [FromBody] Emp
     };
 
     var updatedEmployee = await _employeeRepository.Update(employee);
-    // Р’РѕР·РІСЂР°С‰Р°РµРј РёР·РјРµРЅРµРЅРЅРѕРіРѕ  СЃРѕС‚СЂСѓРґРЅРёРєР°
+    // Возвращаем измененного  сотрудника
     var employeeModel = new EmployeeResponse()
     {
         Id = updatedEmployee.Id,
@@ -140,7 +140,7 @@ public async Task<ActionResult<EmployeeResponse>> Update(Guid id, [FromBody] Emp
 }
 ```
 
-РњРµС‚РѕРґС‹ Create/Delete/Update РІ InMemoryRepository:
+Методы Create/Delete/Update в InMemoryRepository:
 ```cs
 public Task<T> CreateAsync(T entity)
 {
