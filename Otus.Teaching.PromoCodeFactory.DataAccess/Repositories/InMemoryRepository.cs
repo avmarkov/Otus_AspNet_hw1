@@ -48,10 +48,21 @@ namespace Otus.Teaching.PromoCodeFactory.DataAccess.Repositories
 
         public Task<T> Update(T entity)
         {
-            var data = Data.FirstOrDefault(x => x.Id == entity.Id);
+            var dataList = Data.ToList();
+            var data = dataList.FirstOrDefault(x => x.Id == entity.Id);
+
             if (data == null)
                 return null;
-            data = entity;
+
+            int index = dataList.IndexOf(data);
+            if (index == -1)
+            {
+                return null;
+            }
+
+            dataList[index] = entity;
+
+            Data = dataList;           
             return Task.FromResult(entity);
         }
     }

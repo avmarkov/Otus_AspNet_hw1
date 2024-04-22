@@ -157,15 +157,25 @@ namespace Otus.Teaching.PromoCodeFactory.WebHost.Controllers
         [HttpPut]
         public async Task<ActionResult<EmployeeResponse>> Update(Guid id, [FromBody] EmployeeShortRequest employeeRequest)
         {
-            var employee = await _employeeRepository.GetByIdAsync(id);
-            if (employee == null)
+            var findedEmployee = await _employeeRepository.GetByIdAsync(id);
+            if (findedEmployee == null)
             {
                 return NotFound();
             }
 
-            employee.FirstName = employeeRequest.FirstName;
-            employee.LastName = employeeRequest.LastName;
-            employee.Email = employeeRequest.Email;
+            //employee.FirstName = employeeRequest.FirstName;
+            //employee.LastName = employeeRequest.LastName;
+            //employee.Email = employeeRequest.Email;
+
+            Employee employee = new()
+            {
+                Id = findedEmployee.Id,
+                FirstName = employeeRequest.FirstName,
+                LastName = employeeRequest.LastName,
+                Email = employeeRequest.Email,
+                AppliedPromocodesCount = findedEmployee.AppliedPromocodesCount,
+                Roles = findedEmployee.Roles
+            };
 
             var updatedEmployee = await _employeeRepository.Update(employee);
             // Возвращаем измененного  сотрудника
@@ -181,7 +191,7 @@ namespace Otus.Teaching.PromoCodeFactory.WebHost.Controllers
                 FullName = updatedEmployee.FullName,
                 AppliedPromocodesCount = updatedEmployee.AppliedPromocodesCount
             };
-            return Ok(updatedEmployee);
+            return Ok(employeeModel);
         }
     }
 }
